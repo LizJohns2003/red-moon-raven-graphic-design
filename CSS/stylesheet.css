@@ -1,0 +1,39 @@
+html{
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+margin: auto;
+max-width: 1280px;
+align-content: center;
+background-color: black;
+color: white;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1280px;
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+a:visited{color:white;}
+a:hover{color: red;}
+a:focus{color: blueviolet;}
+
+.banner-img{
+  padding-top: 1%;
+  
+}
+
+.our-mission{
+    padding-left: 5%;
+    padding-top: 10%;
+    max-width: 50%;
+}
