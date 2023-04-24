@@ -4,13 +4,13 @@ font-family: 'Open Sans', sans-serif;
 margin: auto;
 max-width: 1280px;
 align-content: center;
-background-color: black;
-color: white;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 }
 
 nav{
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 1%;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
@@ -23,17 +23,101 @@ nav>a{
    
 }
 
-a:visited{color:white;}
+a:visited{color:rgb(255, 255, 255);}
 a:hover{color: red;}
 a:focus{color: blueviolet;}
 
 .banner-img{
-  padding-top: 1%;
-  
+  padding-bottom: 5%
+}
+.banner-img>style>shape-divider{
+    
 }
 
 .our-mission{
-    padding-left: 5%;
-    padding-top: 10%;
+  padding-top: 5%;
     max-width: 50%;
+    float: left;
 }
+
+.mission-illustration{
+float: right;
+padding-top: 5%;
+}
+
+.common-offers{
+    background-color: rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5%;
+    padding-bottom: 10%;
+    }
+
+
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none ;
+    padding: 2%;
+}
+
+h2:nth-child(5){
+    padding-top: 50%;
+    text-align: center;
+}
+
+.quote{
+    text-align: center;
+    padding: 10%;
+}
+
+.socials{
+    text-align: center;
+    background-color: rgb(175, 175, 175);
+    color: white;
+    padding: 7%;
+    
+}
+
+.socials>img{
+    cursor: pointer;
+}
+
+.socials:hover .socials{
+animation: shake 1s forwards;
+}
+
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(15deg);}
+    30%{transform: rotate(15deg);}
+    50%{transform: rotate(0deg);}
+}
+                
+
+.previous-work{
+    text-align: center;
+    padding-top: 2%;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: black;
+   text-align: center;
+    align-items: center;
+    padding: 5%;
+}
+
+footer>li{
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer>img{
+    float: left;
+}
+
