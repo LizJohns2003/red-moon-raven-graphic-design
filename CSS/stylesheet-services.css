@@ -27,44 +27,9 @@ a:visited{color:rgb(255, 255, 255);}
 a:hover{color: red;}
 a:focus{color: blueviolet;}
 
-.socials{
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 7%;
-    
-}
-
-.socials>img{
-    cursor: pointer;
-}
-
-.about-designer>img{
-  
-   padding-bottom: 2%;
-   
-}
-
-.about-designer{
-    padding-top: 5%;
-    padding-bottom: 10%;
-    
-   
-    
-}
-
-.about-designer>p{
-    width: 800px;
-    
-}
-
-.about-designer>ul{
-    width: 500px;
- 
-}
-
-.design-photo-grid-one{
-padding-bottom: 15%;
+p{
+    width: 900px;
+    padding-left: 2%;
 }
 
 footer{
@@ -72,7 +37,7 @@ footer{
    text-align: center;
     align-items: center;
     padding: 5%;
-    
+    margin-top: 10%;
 }
 
 footer>li{
@@ -83,9 +48,4 @@ footer>li{
 
 footer>img{
     float: left;
-}
-
-h2{
-    font-size: 3em;
-    text-align: center;
 }
