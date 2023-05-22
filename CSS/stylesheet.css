@@ -36,15 +36,20 @@ a:focus{color: blueviolet;}
 
 .our-mission{
   padding-top: 5%;
-    max-width: 50%;
-    float: left;
+    width: 70%;
+   padding-bottom: 10%;
 }
 
 .mission-illustration{
 float: right;
 padding-top: 5%;
+margin-left: 2%;
 width: 50%;
 height: 50%;
+}
+
+.common-offer-titles{
+    text-align: center;
 }
 
 .common-offers{
@@ -80,6 +85,7 @@ h2:nth-child(5){
     background-color: rgb(175, 175, 175);
     color: white;
     padding: 7%;
+    width: 100%;
     
 }
 
@@ -110,7 +116,8 @@ footer{
     background-color: black;
    text-align: center;
     align-items: center;
-    padding: 5%;
+    padding: 5%; 
+    width: 100%;
 }
 
 footer>li{
