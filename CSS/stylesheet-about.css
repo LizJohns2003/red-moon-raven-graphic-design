@@ -14,7 +14,8 @@ nav{
     padding: 1%;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
-    width: 1280px;
+    width: 100%;
+    
 }
 
 nav>a{
@@ -28,7 +29,7 @@ a:hover{color: red;}
 a:focus{color: blueviolet;}
 
 .banner-img{
-  
+  width: 100%;
   padding-bottom: 5%
 }
 
@@ -47,6 +48,7 @@ a:focus{color: blueviolet;}
 .about-us-article{
 padding-top: 5%;
 padding-bottom: 15%;
+width: 70%;
 
 }
 
@@ -55,15 +57,16 @@ float: right;
 }
 
 .about-us-article>p{
-    width: 600px;
+    width: 70%;
     
 }
 
 .about-us-article>h2{
-    background-color: black;
-    color: white;
-    width: 300px;
-    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 2%;
+    
 }
 
 .about-us-article>h4{
@@ -75,11 +78,13 @@ float: right;
     background-color: rgb(211, 210, 210);
     justify-content: center;
     padding: 5%;
+    width: auto;
 }
 
 .image-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
 }
 
 .background{
@@ -89,10 +94,11 @@ float: right;
     padding-left: 2%;
     padding-right: 3%;
     float: left;
+    width: 100%;
 }
 
 .background>p{
-    width: 600px;
+    width: 100%;
 }
 .background-img{
     float:right;
@@ -101,7 +107,7 @@ float: right;
 
 
 .our-process{
-    width: 600px;
+    width: 70%;
     float: left;
     text-align: left;
     padding-bottom: 20%;
