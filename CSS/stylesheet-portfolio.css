@@ -21,7 +21,7 @@ nav{
 nav>a{
     text-decoration: none;
     color: white;
-   
+    width: fit-content;
 }
 
 a:visited{color:rgb(255, 255, 255);}
@@ -66,7 +66,8 @@ a:focus{color: blueviolet;}
 
 .design-photo-grid-one{
 padding-bottom: 15%; 
-width: 100%;
+width: fit-content;
+align-content: center;
 }
 
 footer{
